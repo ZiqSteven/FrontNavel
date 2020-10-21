@@ -1,0 +1,57 @@
+.header{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 105vh;
+    padding-top: 20px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color:black;
+}
+
+h2{
+    font-family: 'Mada', sans-serif;
+}
+
+.vidContent{
+    position: absolute;
+    top: -8px;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+#vidBtn{
+    font-family:  'Mada', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 30px;
+    border: none;
+    background: #FF9900;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 20px;
+    border-radius: 9px;
+    animation: shadow-pulse 2s infinite;
+    text-transform: uppercase;
+}
+
+#vidBtn2{
+    font-family:  'Mada', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 30px;
+    border: none !important;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 20px;
+    border-radius: 9px;
+    animation: shadow-pulse 2s infinite;
+    text-transform: uppercase;
+}
